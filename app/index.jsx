@@ -121,7 +121,7 @@ function GlobalLoading({ visible }) {
   return (
     <View style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, backgroundColor: "#000", zIndex: 9999, alignItems: "center", justifyContent: "center" }}>
       <View style={{ alignItems: "center", width: 200, paddingHorizontal: 8 }}>
-        <Image source={require("./assets/images/logo.png")} style={{ width: 176, height: 60, objectFit: "contain", marginBottom: 20 }} resizeMode="contain" />
+        <Image source={require("../assets/images/icon.png")} style={{ width: 176, height: 60, objectFit: "contain", marginBottom: 20 }} resizeMode="contain" />
         <View style={{ width: "100%", height: 6, backgroundColor: "#333", borderRadius: 99, overflow: "hidden", borderWidth: 1, borderColor: "rgba(156,163,175,0.3)" }}>
           <Animated.View style={{ height: "100%", backgroundColor: C.merah, borderRadius: 99, width }} />
         </View>
@@ -246,7 +246,7 @@ function ViewMatches({ onOpenDetail }) {
       {/* Header */}
       <View style={{ backgroundColor: "transparent", paddingTop: 8 }}>
         <View style={{ maxWidth: 640, alignSelf: "center", width: "100%" }}>
-          <Image source={require("./assets/images/logo.png")} style={{ width: 192, height: 48, marginLeft: 12 }} resizeMode="contain" />
+          <Image source={require("../assets/images/icon.png")} style={{ width: 192, height: 48, marginLeft: 12 }} resizeMode="contain" />
         </View>
       </View>
 
