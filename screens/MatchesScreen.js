@@ -90,7 +90,7 @@ export default function MatchesScreen({ onOpenDetail }) {
       <SafeAreaView style={{ flex: 1 }}>
         {/* Header */}
         <View style={s.header}>
-          <Image source={require('../assets/logo.png')} style={s.logo} resizeMode="contain" />
+          <Image source={require('../assets/icontol.png')} style={s.logo} resizeMode="contain" />
         </View>
 
         <ScrollView
