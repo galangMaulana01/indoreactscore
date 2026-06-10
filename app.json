@@ -29,6 +29,7 @@
       "eas": {
         "projectId": "40b6368b-94a2-448b-b6dd-b501d9f28319"
       }
-    }
+    },
+    "userInterfaceStyle": "automatic"
   }
 }
