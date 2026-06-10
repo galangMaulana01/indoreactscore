@@ -284,7 +284,7 @@ export default function App() {
       {splashVisible && (
         <View className="absolute z-[10000] top-0 left-0 right-0 bottom-0 bg-black flex-1 items-center justify-center">
           <Video
-            source={require('../assets/splash.mp4')} // Pastikan splash.mp4 ada di folder assets
+            source={require('./assets/splash.mp4')} // Pastikan splash.mp4 ada di folder assets
             style={{ width: '100%', height: '100%' }}
             resizeMode={ResizeMode.COVER}
             shouldPlay
@@ -301,7 +301,7 @@ export default function App() {
       {globalLoading && !splashVisible && (
         <View className="absolute z-[9999] top-0 left-0 right-0 bottom-0 bg-black flex-1 items-center justify-center">
           <View className="flex-col items-center w-full max-w-[200px] px-2">
-            <Image source={require('../assets/images/logo.png')} className="w-44 h-16 mb-5" resizeMode="contain" />
+            <Image source={require('./assets/logo.png')} className="w-44 h-16 mb-5" resizeMode="contain" />
             <View className="w-full h-1.5 bg-[#333] rounded-full overflow-hidden border border-gray-700/50">
               <Animated.View 
                 className="h-full bg-merah rounded-full" 
@@ -318,7 +318,7 @@ export default function App() {
       {activeView === 'matches' && (
         <ScrollView className="flex-1 z-10" showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 100 }}>
           <View className="pt-10 pb-4">
-            <Image source={require('../assets/images/logo.png')} className="w-48 h-12 ml-4" resizeMode="contain" />
+            <Image source={require('./assets/logo.png')} className="w-48 h-12 ml-4" resizeMode="contain" />
           </View>
           
           {/* Banner */}
