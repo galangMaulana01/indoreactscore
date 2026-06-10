@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "IndoScore",
+    "slug": "indoreactscore",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "indoreactscore",
+    "platforms": ["android"],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f0f0f"
+      },
+      "package": "com.galangMaulana01.indoreactscore"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
